@@ -17,14 +17,13 @@ A Unity mini-game where players sort falling objects into matching colored bins 
 
 ## 🚀 Features
 
-- 🎯 Object sorting via **drag-and-drop**
-- 🌀 Animated **rotation** of falling objects
-- 📦 Efficient **object pooling** system for performance
-- ✨ Visual **glow effect** on bins for correct match (via emission shader)
-- 🧠 Supports both dragged and directly falling objects
-- 🧩 Modular C# scripts (separated by logic and system)
-- 🎮 UI system with **score, lives counter, and restart functionality**
-- 🔁 Scene reload and object reset on Game Over
+-  Object sorting via **drag-and-drop**
+-  Animated **rotation** of falling objects
+-  Efficient **object pooling** system for performance
+-  Visual **glow effect** on bins for correct match 
+-  Modular C# scripts (separated by logic and system)
+-  UI system with **score, lives counter, and restart functionality**
+-  Scene reload and object reset on Game Over
 
 ---
 
@@ -64,10 +63,9 @@ A Unity mini-game where players sort falling objects into matching colored bins 
 1. Launch the scene.
 2. Wait for objects to spawn and fall.
 3. **Drag** each falling object to the bin that matches its color.
-4. If it falls into the correct bin without dragging, it's still valid.
-5. Avoid letting them fall on the wrong bin or to the ground.
-6. Game ends after 3 incorrect attempts (lives = 0).
-7. Press Restart to try again.
+4. Avoid letting them fall on the wrong bin or to the ground.
+5. Game ends after 3 incorrect attempts (lives = 0).
+6. Press Restart to try again.
 
 ---
 
